@@ -1,0 +1,18 @@
+[package]
+name = "proxy-server"
+version = "0.1.0"
+authors = ["haruto"]
+edition = "2018"
+
+[dependencies]
+hyper = "0.13"
+log = "0.4"
+pretty_env_logger = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.59"
+rand = "0.8"
+tokio = { version = "0.2", features = ["full"] }
+http = "0.2"
+regex = "1"
+config = { version = "0.11.0", features = ["toml"] }
+lazy_static = "1.4.0"
